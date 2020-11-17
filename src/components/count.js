@@ -16,7 +16,6 @@ function mapStateToProps(state) {
     console.log(state);
     return {
         count: state.count,
-        name: state.name
     }
 }
 
